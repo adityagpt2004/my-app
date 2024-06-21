@@ -1,0 +1,19 @@
+/* Navigation bar */
+.Navbar{
+/* position:absolute; */
+max-width: ;
+height: 30.86px;
+left: 161px;
+top: 57.57px;
+}
+.Darkbtn{
+    margin-left: 1000px;
+    padding-top: 2px;
+}
+
+@media (width<=800px) {
+    .Darkbtn{
+        margin-left: 30px;
+    }
+    
+}

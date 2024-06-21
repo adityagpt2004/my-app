@@ -1,0 +1,12 @@
+.Container{
+    margin-top: 10px;
+    font-size: 15px;
+    color: white;
+    height: 100px;
+    max-width: ;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

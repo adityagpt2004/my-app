@@ -1,0 +1,52 @@
+.LargeImg{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+.Img{
+    border-radius: 10px
+}
+.SmallImg{
+    display: flex;
+    justify-content: space-between;
+    /* gap: 0px; */
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-top: 10px;    
+}
+.SImg{
+    border-radius:20px ;
+}
+
+
+@media (width <=800px) {
+    .Container{
+        width: 400px;
+        height: fit-content;
+    }
+    .Img{
+        width: 400px;
+        height: 300px;
+        border-radius: 20px;
+        padding: 10px;
+    }
+    .SmallImg{
+        margin-top: 30px;
+        display:flex;
+        flex: 1;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .SmallImg1{
+        width: 330px;
+        height: 200px;
+    }
+    .SImg{
+        border-radius: 15px;
+        width: 330px;
+        height: 200px;
+    }
+    
+    
+}
